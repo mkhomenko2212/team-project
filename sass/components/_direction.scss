@@ -1,0 +1,31 @@
+.direction {
+  &__box {
+    width: 266px;
+    padding-right: 5px;
+    border-radius: 8px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1.58;
+
+    color: $title-color;
+  }
+
+  &__list {
+    display: flex;
+  }
+}
+
+.direction__box {
+  margin-right: 20px;
+}
+
+.direction__image {
+  overflow: hidden;
+  width: 261px;
+  height: 330px;
+  border: 2px solid red;
+  border-radius: 8px;
+}

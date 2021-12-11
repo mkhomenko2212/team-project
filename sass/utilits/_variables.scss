@@ -1,0 +1,53 @@
+$title-color: #000000;
+$text-color: #7d7987;
+$accent-color: #fb8f1d;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1220px;
+  padding-left: 49px;
+  padding-right: 45px;
+
+  border: 1px solid red;
+}
+/* Утилиты */
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.item {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
