@@ -1,61 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link href="./css/main.min.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <section class="direction">
-        <h2 class="direction__title">Trending stories</h2>
-        <a href="" class="direction__link link">View all > </a>
+      <section class="direction">
+        <div class="direction__wrap">
+          <svg class="direction__svg1" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-element"></use>
+          </svg>
+          <svg class="direction__svg2" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-element2"></use>
+          </svg>
+          <svg class="direction__svg3" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-element3"></use>
+          </svg>
+          <h2 class="direction__caption">Trending stories</h2>
+          <a href="" class="direction__link link">View all > </a>
+        </div>
         <ul class="direction__list list">
-            <li class="direction__item item"><div class="direction__box">
-                <div class="direction__image"><img src="./images/yoga.png" alt="healing holiday" width="261px" /></div>
-                <h3 class="direction__tittle">The many benefits of taking a healing holiday</h3>
-                <p class="direction__excerpt">‘Helaing holidays’ are on the rise 
-tohelp maximise your health and happines...</p>
-                <a  class="direction__link link"href="">Read more</a>
-            </div></li>
-            <li class="blog__item item"><div class="direction__box">
-                <img src="./images/food.png" alt="restaurants&teahouse" />
-                <h3 class="direction__tittle">The best Kyoto restaurant to try Japanese food</h3>
-                <p class="direction__excerpt">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
-to visit...</p>
-                <a  class="direction__link link"href="">Read more</a>
-            </div</li>
-            <li class="blog__item item"><div class="direction__box">
-                <img src="./images/ruins.png" alt="ruins" />
-                <h3 class="direction__tittle">Skip Chichen Itza and head
-to this remote Yucatan</h3>
-                <p class="direction__excerpt">It’s remote and challenging to get,
-but braving the jungle and exploring
-these ruins without the...</p>
-                <a  class="direction__link link"href="">Read more</a>
-            </div</li>
-            <li class="blog__item item"><div class="direction__box">
-                <img src="./images/surf.png" alt="surfing" />
-                <h3 class="direction__tittle">Surf’s up at these beginner
-spots around the world</h3>
-                <p class="direction__excerpt">If learning to surf has in on your to-
-do list for a while, the good news
-is: it’s never too late...</p>
-                <a  class="direction__link link"href="">Read more</a>
-            </div</li>
+          <li class="direction__item item">
+            <div class="direction__box">
+              <div class="direction__image">
+                <img
+                  src="./images/yoga.png"
+                  alt="healing holiday"
+                  width="261"
+                />
+              </div>
+              <div class="item__wrap">
+                <h3 class="direction__title">
+                  The many benefits of taking a healing holiday
+                </h3>
+                <p class="direction__excerpt">
+                  ‘Helaing holidays’ are on the rise tohelp maximise your health
+                  and happines...
+                </p>
+                <a class="direction__all link" href="">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li class="direction__item item">
+            <div class="direction__box">
+              <div class="direction__image">
+                <img
+                  src="./images/food.png"
+                  alt="restaurants&teahouse"
+                  width="261"
+                />
+              </div>
+              <div class="item__wrap">
+                <h3 class="direction__title">
+                  The best Kyoto restaurant to try Japanese food
+                </h3>
+                <p class="direction__excerpt">
+                  From tofu to teahouses, here’s our guide to Kyoto’s best
+                  restaurants to visit...
+                </p>
+                <a class="direction__all link" href="">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li class="direction__item item">
+            <div class="direction__box">
+              <div class="direction__image">
+                <img src="./images/ruins.png" alt="ruins" width="261" />
+              </div>
+              <div class="item__wrap">
+                <h3 class="direction__title">
+                  Skip Chichen Itza and head to this remote Yucatan
+                </h3>
+                <p class="direction__excerpt">
+                  It’s remote and challenging to get, but braving the jungle and
+                  exploring these ruins without the...
+                </p>
+                <a class="direction__all link" href="">Read more</a>
+              </div>
+            </div>
+          </li>
+          <li class="direction__item item">
+            <div class="direction__box">
+              <div class="direction__image">
+                <img src="./images/surf.png" alt="surfing" width="261" />
+              </div>
+              <div class="item__wrap">
+                <h3 class="direction__title">
+                  Surf’s up at these beginner spots around the world
+                </h3>
+                <p class="direction__excerpt">
+                  If learning to surf has in on your to- do list for a while,
+                  the good news is: it’s never too late...
+                </p>
+                <a class="direction__all link" href="">Read more</a>
+              </div>
+            </div>
+          </li>
         </ul>
-        
-
-
-    </section>
-</div>
-
-</body>
+      </section>
+    </div>
+  </body>
 </html>
