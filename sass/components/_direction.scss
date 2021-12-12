@@ -9,7 +9,6 @@
     align-items: stretch;
     height: 446px;
     width: 266px;
-    padding-right: 5px;
     border-radius: 8px;
   }
   &__svg1 {
@@ -33,8 +32,12 @@
     left: 717px;
     fill: #fdd08d;
   }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
   &__caption {
-    display: inline-block;
     margin-bottom: 56px;
     font-weight: bold;
     font-size: 36px;
@@ -47,11 +50,6 @@
     display: flex;
   }
 
-  &__wrap {
-    display: flex;
-    justify-content: space-between;
-  }
-
   &__link {
     font-weight: 600;
     font-size: 17px;
@@ -61,7 +59,6 @@
   }
 
   &__all {
-    display: inline-block;
     font-weight: 600;
     font-size: 15px;
     line-height: 1.87;
@@ -82,12 +79,15 @@
     font-size: 15px;
     line-height: 1.73;
     color: $text-color;
+
+    margin-bottom: 23px;
   }
   &__box {
     position: relative;
     margin-right: 20px;
   }
   &__image {
+    display: block;
     overflow: hidden;
     width: 261px;
     height: 330px;
